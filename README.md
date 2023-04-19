@@ -6,7 +6,7 @@
 
 ![Image Processing Screen Shot](images/readme.jpeg)
 
-[Image Processing](link) is a web-based application that can analyze the colors and textures of images based on various techniques. This app allows users to analyze more than 4,000 image samples for color analysis (such as converting an image to a pixel matrix, generating a color histogram, and calculating first-order statistics) and texture analysis (such as generating the Gray Level Co-occurrence Matrix (GLCM) of an image and creating a texture histogram).
+[Image Processing](https://agungmahadana-image-processing-main-xq8n8n.streamlit.app/) is a web-based application that can analyze the colors and textures of images based on various techniques. This app allows users to analyze more than 4,000 image samples for color analysis (such as converting an image to a pixel matrix, generating a color histogram, and calculating first-order statistics) and texture analysis (such as generating the Gray Level Co-occurrence Matrix (GLCM) of an image and creating a texture histogram).
 
 Use the `README.md` to get started.
 
@@ -14,9 +14,9 @@ Use the `README.md` to get started.
 
 ## Built With
 
-- [![Python][python.badge]](https://shields.io/)
-- [![Jupyter][jupyter.badge]](https://shields.io/)
-- [![Streamlit][streamlit.badge]](https://shields.io/)
+- ![Python](https://img.shields.io/badge/python-FFD43B?style=for-the-badge&logo=python)
+- ![Jupyter](https://img.shields.io/badge/jupyter-gray?style=for-the-badge&logo=jupyter)
+- ![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,9 +67,3 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 - [Streamlit](https://streamlit.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINK & IMAGE -->
-
-[python.badge]: https://img.shields.io/badge/python-FFD43B?style=for-the-badge&logo=python
-[jupyter.badge]: https://img.shields.io/badge/jupyter-gray?style=for-the-badge&logo=jupyter
-[streamlit.badge]: https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white
