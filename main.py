@@ -71,7 +71,7 @@ class_input = st.radio("Select your class", ('A', 'B', 'C', 'D'), horizontal=Tru
 absen_input = st.slider("Select your absen", 1, 20, value=12)
 type_input = st.selectbox("Select image type", ('Happy', 'Sad', 'Neutral'))
 image_index_input = st.number_input("Select image index", min_value=1, max_value=10)
-image = load_image(type_input, get_images(absen_input, class_input.lower())[image_index_input - 1])
+image = load_image(type_input.lower(), get_images(absen_input, class_input.lower())[image_index_input - 1])
 
 st.subheader("Image Sample")
 col1, col2, col3 = st.columns(3)
